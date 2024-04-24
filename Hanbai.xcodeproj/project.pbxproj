@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D2998AB2BD943F000ADAB73 /* HanbaiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2998AA2BD943F000ADAB73 /* HanbaiApp.swift */; };
+		2D2998AD2BD943F000ADAB73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2998AC2BD943F000ADAB73 /* ContentView.swift */; };
+		2D2998AF2BD943F100ADAB73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D2998AE2BD943F100ADAB73 /* Assets.xcassets */; };
+		2D2998B22BD943F100ADAB73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D2998B12BD943F100ADAB73 /* Preview Assets.xcassets */; };
+		2D2998BD2BD943F100ADAB73 /* HanbaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2998BC2BD943F100ADAB73 /* HanbaiTests.swift */; };
+		2D2998C72BD943F100ADAB73 /* HanbaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2998C62BD943F100ADAB73 /* HanbaiUITests.swift */; };
+		2D2998C92BD943F100ADAB73 /* HanbaiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2998C82BD943F100ADAB73 /* HanbaiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D2998B92BD943F100ADAB73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D29989F2BD943F000ADAB73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D2998A62BD943F000ADAB73;
+			remoteInfo = Hanbai;
+		};
+		2D2998C32BD943F100ADAB73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D29989F2BD943F000ADAB73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D2998A62BD943F000ADAB73;
+			remoteInfo = Hanbai;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D2998A72BD943F000ADAB73 /* Hanbai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hanbai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D2998AA2BD943F000ADAB73 /* HanbaiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanbaiApp.swift; sourceTree = "<group>"; };
+		2D2998AC2BD943F000ADAB73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2D2998AE2BD943F100ADAB73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D2998B12BD943F100ADAB73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D2998B32BD943F100ADAB73 /* Hanbai.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hanbai.entitlements; sourceTree = "<group>"; };
+		2D2998B82BD943F100ADAB73 /* HanbaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanbaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D2998BC2BD943F100ADAB73 /* HanbaiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanbaiTests.swift; sourceTree = "<group>"; };
+		2D2998C22BD943F100ADAB73 /* HanbaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanbaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D2998C62BD943F100ADAB73 /* HanbaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanbaiUITests.swift; sourceTree = "<group>"; };
+		2D2998C82BD943F100ADAB73 /* HanbaiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanbaiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D2998A42BD943F000ADAB73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2998B52BD943F100ADAB73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2998BF2BD943F100ADAB73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D29989E2BD943F000ADAB73 = {
+			isa = PBXGroup;
+			children = (
+				2D2998A92BD943F000ADAB73 /* Hanbai */,
+				2D2998BB2BD943F100ADAB73 /* HanbaiTests */,
+				2D2998C52BD943F100ADAB73 /* HanbaiUITests */,
+				2D2998A82BD943F000ADAB73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D2998A82BD943F000ADAB73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D2998A72BD943F000ADAB73 /* Hanbai.app */,
+				2D2998B82BD943F100ADAB73 /* HanbaiTests.xctest */,
+				2D2998C22BD943F100ADAB73 /* HanbaiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D2998A92BD943F000ADAB73 /* Hanbai */ = {
+			isa = PBXGroup;
+			children = (
+				2D2998AA2BD943F000ADAB73 /* HanbaiApp.swift */,
+				2D2998AC2BD943F000ADAB73 /* ContentView.swift */,
+				2D2998AE2BD943F100ADAB73 /* Assets.xcassets */,
+				2D2998B32BD943F100ADAB73 /* Hanbai.entitlements */,
+				2D2998B02BD943F100ADAB73 /* Preview Content */,
+			);
+			path = Hanbai;
+			sourceTree = "<group>";
+		};
+		2D2998B02BD943F100ADAB73 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2D2998B12BD943F100ADAB73 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2D2998BB2BD943F100ADAB73 /* HanbaiTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D2998BC2BD943F100ADAB73 /* HanbaiTests.swift */,
+			);
+			path = HanbaiTests;
+			sourceTree = "<group>";
+		};
+		2D2998C52BD943F100ADAB73 /* HanbaiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D2998C62BD943F100ADAB73 /* HanbaiUITests.swift */,
+				2D2998C82BD943F100ADAB73 /* HanbaiUITestsLaunchTests.swift */,
+			);
+			path = HanbaiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D2998A62BD943F000ADAB73 /* Hanbai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D2998CC2BD943F100ADAB73 /* Build configuration list for PBXNativeTarget "Hanbai" */;
+			buildPhases = (
+				2D2998A32BD943F000ADAB73 /* Sources */,
+				2D2998A42BD943F000ADAB73 /* Frameworks */,
+				2D2998A52BD943F000ADAB73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hanbai;
+			productName = Hanbai;
+			productReference = 2D2998A72BD943F000ADAB73 /* Hanbai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D2998B72BD943F100ADAB73 /* HanbaiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D2998CF2BD943F100ADAB73 /* Build configuration list for PBXNativeTarget "HanbaiTests" */;
+			buildPhases = (
+				2D2998B42BD943F100ADAB73 /* Sources */,
+				2D2998B52BD943F100ADAB73 /* Frameworks */,
+				2D2998B62BD943F100ADAB73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D2998BA2BD943F100ADAB73 /* PBXTargetDependency */,
+			);
+			name = HanbaiTests;
+			productName = HanbaiTests;
+			productReference = 2D2998B82BD943F100ADAB73 /* HanbaiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D2998C12BD943F100ADAB73 /* HanbaiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D2998D22BD943F100ADAB73 /* Build configuration list for PBXNativeTarget "HanbaiUITests" */;
+			buildPhases = (
+				2D2998BE2BD943F100ADAB73 /* Sources */,
+				2D2998BF2BD943F100ADAB73 /* Frameworks */,
+				2D2998C02BD943F100ADAB73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D2998C42BD943F100ADAB73 /* PBXTargetDependency */,
+			);
+			name = HanbaiUITests;
+			productName = HanbaiUITests;
+			productReference = 2D2998C22BD943F100ADAB73 /* HanbaiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D29989F2BD943F000ADAB73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2D2998A62BD943F000ADAB73 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					2D2998B72BD943F100ADAB73 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 2D2998A62BD943F000ADAB73;
+					};
+					2D2998C12BD943F100ADAB73 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 2D2998A62BD943F000ADAB73;
+					};
+				};
+			};
+			buildConfigurationList = 2D2998A22BD943F000ADAB73 /* Build configuration list for PBXProject "Hanbai" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D29989E2BD943F000ADAB73;
+			productRefGroup = 2D2998A82BD943F000ADAB73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D2998A62BD943F000ADAB73 /* Hanbai */,
+				2D2998B72BD943F100ADAB73 /* HanbaiTests */,
+				2D2998C12BD943F100ADAB73 /* HanbaiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D2998A52BD943F000ADAB73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2998B22BD943F100ADAB73 /* Preview Assets.xcassets in Resources */,
+				2D2998AF2BD943F100ADAB73 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2998B62BD943F100ADAB73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2998C02BD943F100ADAB73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D2998A32BD943F000ADAB73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2998AD2BD943F000ADAB73 /* ContentView.swift in Sources */,
+				2D2998AB2BD943F000ADAB73 /* HanbaiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2998B42BD943F100ADAB73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2998BD2BD943F100ADAB73 /* HanbaiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D2998BE2BD943F100ADAB73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2998C72BD943F100ADAB73 /* HanbaiUITests.swift in Sources */,
+				2D2998C92BD943F100ADAB73 /* HanbaiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D2998BA2BD943F100ADAB73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D2998A62BD943F000ADAB73 /* Hanbai */;
+			targetProxy = 2D2998B92BD943F100ADAB73 /* PBXContainerItemProxy */;
+		};
+		2D2998C42BD943F100ADAB73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D2998A62BD943F000ADAB73 /* Hanbai */;
+			targetProxy = 2D2998C32BD943F100ADAB73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D2998CA2BD943F100ADAB73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D2998CB2BD943F100ADAB73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2D2998CD2BD943F100ADAB73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Hanbai/Hanbai.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hanbai/Preview Content\"";
+				DEVELOPMENT_TEAM = MMLNF3BF4U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ClickITDev.Hanbai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2D2998CE2BD943F100ADAB73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Hanbai/Hanbai.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hanbai/Preview Content\"";
+				DEVELOPMENT_TEAM = MMLNF3BF4U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ClickITDev.Hanbai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2D2998D02BD943F100ADAB73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MMLNF3BF4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ClickITDev.HanbaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hanbai.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hanbai";
+			};
+			name = Debug;
+		};
+		2D2998D12BD943F100ADAB73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MMLNF3BF4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ClickITDev.HanbaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hanbai.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hanbai";
+			};
+			name = Release;
+		};
+		2D2998D32BD943F100ADAB73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MMLNF3BF4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ClickITDev.HanbaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Hanbai;
+			};
+			name = Debug;
+		};
+		2D2998D42BD943F100ADAB73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MMLNF3BF4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ClickITDev.HanbaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Hanbai;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D2998A22BD943F000ADAB73 /* Build configuration list for PBXProject "Hanbai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D2998CA2BD943F100ADAB73 /* Debug */,
+				2D2998CB2BD943F100ADAB73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D2998CC2BD943F100ADAB73 /* Build configuration list for PBXNativeTarget "Hanbai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D2998CD2BD943F100ADAB73 /* Debug */,
+				2D2998CE2BD943F100ADAB73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D2998CF2BD943F100ADAB73 /* Build configuration list for PBXNativeTarget "HanbaiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D2998D02BD943F100ADAB73 /* Debug */,
+				2D2998D12BD943F100ADAB73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D2998D22BD943F100ADAB73 /* Build configuration list for PBXNativeTarget "HanbaiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D2998D32BD943F100ADAB73 /* Debug */,
+				2D2998D42BD943F100ADAB73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D29989F2BD943F000ADAB73 /* Project object */;
+}
