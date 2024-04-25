@@ -23,6 +23,7 @@
 		2D2998F32BDA938A00ADAB73 /* ComicUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2998F22BDA938A00ADAB73 /* ComicUseCase.swift */; };
 		2D2998F52BDA945E00ADAB73 /* Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2998F42BDA945E00ADAB73 /* Thumbnail.swift */; };
 		2D2998F82BDA959E00ADAB73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2998F72BDA959E00ADAB73 /* AppDelegate.swift */; };
+		2D2998FA2BDA960E00ADAB73 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2998F92BDA960E00ADAB73 /* StatusBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		2D2998F22BDA938A00ADAB73 /* ComicUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicUseCase.swift; sourceTree = "<group>"; };
 		2D2998F42BDA945E00ADAB73 /* Thumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thumbnail.swift; sourceTree = "<group>"; };
 		2D2998F72BDA959E00ADAB73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D2998F92BDA960E00ADAB73 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +121,6 @@
 				2D2998F12BDA938000ADAB73 /* UseCase */,
 				2D2998DA2BDA8F4800ADAB73 /* Presentation */,
 				2D2998F62BDA958400ADAB73 /* Supporting Files */,
-				2D2998AA2BD943F000ADAB73 /* HanbaiApp.swift */,
 				2D2998AE2BD943F100ADAB73 /* Assets.xcassets */,
 				2D2998B32BD943F100ADAB73 /* Hanbai.entitlements */,
 				2D2998B02BD943F100ADAB73 /* Preview Content */,
@@ -181,6 +182,7 @@
 		2D2998DB2BDA8F5300ADAB73 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				2D2998F92BDA960E00ADAB73 /* StatusBarController.swift */,
 				2D2998DE2BDA8F8500ADAB73 /* Home */,
 			);
 			path = Screens;
@@ -247,6 +249,7 @@
 		2D2998F62BDA958400ADAB73 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2D2998AA2BD943F000ADAB73 /* HanbaiApp.swift */,
 				2D2998F72BDA959E00ADAB73 /* AppDelegate.swift */,
 			);
 			path = "Supporting Files";
@@ -383,6 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D2998F82BDA959E00ADAB73 /* AppDelegate.swift in Sources */,
+				2D2998FA2BDA960E00ADAB73 /* StatusBarController.swift in Sources */,
 				2D2998E92BDA91FF00ADAB73 /* String+Ext.swift in Sources */,
 				2D2998E62BDA91BD00ADAB73 /* MarvelAPIManager.swift in Sources */,
 				2D2998E02BDA8F9500ADAB73 /* ComicsViewModel.swift in Sources */,
