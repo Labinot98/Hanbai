@@ -1,5 +1,5 @@
 //
-//  ComicModel.swift
+//  AppDelegate.swift
 //  Hanbai
 //
 //  Created by Pajaziti Labinot on 25.4.24..

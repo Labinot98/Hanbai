@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		2D2998AB2BD943F000ADAB73 /* HanbaiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2998AA2BD943F000ADAB73 /* HanbaiApp.swift */; };
-		2D2998AD2BD943F000ADAB73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2998AC2BD943F000ADAB73 /* ContentView.swift */; };
 		2D2998AF2BD943F100ADAB73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D2998AE2BD943F100ADAB73 /* Assets.xcassets */; };
 		2D2998B22BD943F100ADAB73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D2998B12BD943F100ADAB73 /* Preview Assets.xcassets */; };
 		2D2998BD2BD943F100ADAB73 /* HanbaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2998BC2BD943F100ADAB73 /* HanbaiTests.swift */; };
 		2D2998C72BD943F100ADAB73 /* HanbaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2998C62BD943F100ADAB73 /* HanbaiUITests.swift */; };
 		2D2998C92BD943F100ADAB73 /* HanbaiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2998C82BD943F100ADAB73 /* HanbaiUITestsLaunchTests.swift */; };
+		2D2998DD2BDA8F6300ADAB73 /* ComicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2998DC2BDA8F6300ADAB73 /* ComicsView.swift */; };
+		2D2998E02BDA8F9500ADAB73 /* ComicsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2998DF2BDA8F9500ADAB73 /* ComicsViewModel.swift */; };
+		2D2998E32BDA8FC400ADAB73 /* Comic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2998E22BDA8FC400ADAB73 /* Comic.swift */; };
+		2D2998E62BDA91BD00ADAB73 /* MarvelAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2998E52BDA91BD00ADAB73 /* MarvelAPIManager.swift */; };
+		2D2998E92BDA91FF00ADAB73 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2998E82BDA91FF00ADAB73 /* String+Ext.swift */; };
+		2D2998EC2BDA923900ADAB73 /* MarvelComicRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2998EB2BDA923900ADAB73 /* MarvelComicRepository.swift */; };
+		2D2998F02BDA927900ADAB73 /* ComicInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2998EF2BDA927900ADAB73 /* ComicInteractor.swift */; };
+		2D2998F32BDA938A00ADAB73 /* ComicUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2998F22BDA938A00ADAB73 /* ComicUseCase.swift */; };
+		2D2998F52BDA945E00ADAB73 /* Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2998F42BDA945E00ADAB73 /* Thumbnail.swift */; };
+		2D2998F82BDA959E00ADAB73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2998F72BDA959E00ADAB73 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +45,6 @@
 /* Begin PBXFileReference section */
 		2D2998A72BD943F000ADAB73 /* Hanbai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hanbai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D2998AA2BD943F000ADAB73 /* HanbaiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanbaiApp.swift; sourceTree = "<group>"; };
-		2D2998AC2BD943F000ADAB73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2D2998AE2BD943F100ADAB73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D2998B12BD943F100ADAB73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D2998B32BD943F100ADAB73 /* Hanbai.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hanbai.entitlements; sourceTree = "<group>"; };
@@ -45,6 +53,16 @@
 		2D2998C22BD943F100ADAB73 /* HanbaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanbaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D2998C62BD943F100ADAB73 /* HanbaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanbaiUITests.swift; sourceTree = "<group>"; };
 		2D2998C82BD943F100ADAB73 /* HanbaiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanbaiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2D2998DC2BDA8F6300ADAB73 /* ComicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsView.swift; sourceTree = "<group>"; };
+		2D2998DF2BDA8F9500ADAB73 /* ComicsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsViewModel.swift; sourceTree = "<group>"; };
+		2D2998E22BDA8FC400ADAB73 /* Comic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comic.swift; sourceTree = "<group>"; };
+		2D2998E52BDA91BD00ADAB73 /* MarvelAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelAPIManager.swift; sourceTree = "<group>"; };
+		2D2998E82BDA91FF00ADAB73 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		2D2998EB2BDA923900ADAB73 /* MarvelComicRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelComicRepository.swift; sourceTree = "<group>"; };
+		2D2998EF2BDA927900ADAB73 /* ComicInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicInteractor.swift; sourceTree = "<group>"; };
+		2D2998F22BDA938A00ADAB73 /* ComicUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicUseCase.swift; sourceTree = "<group>"; };
+		2D2998F42BDA945E00ADAB73 /* Thumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thumbnail.swift; sourceTree = "<group>"; };
+		2D2998F72BDA959E00ADAB73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +113,13 @@
 		2D2998A92BD943F000ADAB73 /* Hanbai */ = {
 			isa = PBXGroup;
 			children = (
+				2D2998D72BDA8F3200ADAB73 /* Core */,
+				2D2998D82BDA8F3A00ADAB73 /* Data */,
+				2D2998ED2BDA926300ADAB73 /* Domain */,
+				2D2998F12BDA938000ADAB73 /* UseCase */,
+				2D2998DA2BDA8F4800ADAB73 /* Presentation */,
+				2D2998F62BDA958400ADAB73 /* Supporting Files */,
 				2D2998AA2BD943F000ADAB73 /* HanbaiApp.swift */,
-				2D2998AC2BD943F000ADAB73 /* ContentView.swift */,
 				2D2998AE2BD943F100ADAB73 /* Assets.xcassets */,
 				2D2998B32BD943F100ADAB73 /* Hanbai.entitlements */,
 				2D2998B02BD943F100ADAB73 /* Preview Content */,
@@ -127,6 +150,106 @@
 				2D2998C82BD943F100ADAB73 /* HanbaiUITestsLaunchTests.swift */,
 			);
 			path = HanbaiUITests;
+			sourceTree = "<group>";
+		};
+		2D2998D72BDA8F3200ADAB73 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2D2998E72BDA91E500ADAB73 /* Extensions */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2D2998D82BDA8F3A00ADAB73 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2D2998E12BDA8FA600ADAB73 /* Model */,
+				2D2998E42BDA90BF00ADAB73 /* Networking */,
+				2D2998EA2BDA922B00ADAB73 /* Repository */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2D2998DA2BDA8F4800ADAB73 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				2D2998DB2BDA8F5300ADAB73 /* Screens */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		2D2998DB2BDA8F5300ADAB73 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				2D2998DE2BDA8F8500ADAB73 /* Home */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		2D2998DE2BDA8F8500ADAB73 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2D2998DC2BDA8F6300ADAB73 /* ComicsView.swift */,
+				2D2998DF2BDA8F9500ADAB73 /* ComicsViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2D2998E12BDA8FA600ADAB73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2D2998E22BDA8FC400ADAB73 /* Comic.swift */,
+				2D2998F42BDA945E00ADAB73 /* Thumbnail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D2998E42BDA90BF00ADAB73 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2D2998E52BDA91BD00ADAB73 /* MarvelAPIManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2D2998E72BDA91E500ADAB73 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2D2998E82BDA91FF00ADAB73 /* String+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2D2998EA2BDA922B00ADAB73 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				2D2998EB2BDA923900ADAB73 /* MarvelComicRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		2D2998ED2BDA926300ADAB73 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				2D2998EF2BDA927900ADAB73 /* ComicInteractor.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		2D2998F12BDA938000ADAB73 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				2D2998F22BDA938A00ADAB73 /* ComicUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		2D2998F62BDA958400ADAB73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D2998F72BDA959E00ADAB73 /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +382,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D2998AD2BD943F000ADAB73 /* ContentView.swift in Sources */,
+				2D2998F82BDA959E00ADAB73 /* AppDelegate.swift in Sources */,
+				2D2998E92BDA91FF00ADAB73 /* String+Ext.swift in Sources */,
+				2D2998E62BDA91BD00ADAB73 /* MarvelAPIManager.swift in Sources */,
+				2D2998E02BDA8F9500ADAB73 /* ComicsViewModel.swift in Sources */,
+				2D2998DD2BDA8F6300ADAB73 /* ComicsView.swift in Sources */,
+				2D2998EC2BDA923900ADAB73 /* MarvelComicRepository.swift in Sources */,
 				2D2998AB2BD943F000ADAB73 /* HanbaiApp.swift in Sources */,
+				2D2998F02BDA927900ADAB73 /* ComicInteractor.swift in Sources */,
+				2D2998E32BDA8FC400ADAB73 /* Comic.swift in Sources */,
+				2D2998F52BDA945E00ADAB73 /* Thumbnail.swift in Sources */,
+				2D2998F32BDA938A00ADAB73 /* ComicUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

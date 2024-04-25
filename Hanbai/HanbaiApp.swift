@@ -11,7 +11,7 @@ import SwiftUI
 struct HanbaiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ComicsView()
         }
     }
 }
