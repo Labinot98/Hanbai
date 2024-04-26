@@ -9,7 +9,7 @@ import SwiftUI
 import AppKit
 
 class StatusBarController {
-    let statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
+   internal var statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
     
     init() {
         if let button = statusItem.button {

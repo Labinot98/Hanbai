@@ -12,7 +12,7 @@ class ComicsViewModel: ObservableObject {
     @Published var groupedComics: [String: [Comic]] = [:]
     @Published var isLoading: Bool = false
     
-    private let comicUseCase: ComicUseCase
+    internal let comicUseCase: ComicUseCase
     var sortedGroupedComics: [(String, [Comic])] {
            return groupedComics.sorted(by: { $0.key < $1.key })
        }
@@ -36,7 +36,7 @@ class ComicsViewModel: ObservableObject {
         }
     }
     
-   private func groupComicsByCreators(_ comics: [Comic]) -> [String: [Comic]] {
+    internal func groupComicsByCreators(_ comics: [Comic]) -> [String: [Comic]] {
            var groupedComics: [String: [Comic]] = [:]
            for comic in comics {
                for creator in comic.creators.items {
