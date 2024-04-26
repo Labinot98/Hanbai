@@ -141,7 +141,6 @@
 			isa = PBXGroup;
 			children = (
 				2D2998E42BDA90BF00ADAB73 /* Networking */,
-				2D2998E12BDA8FA600ADAB73 /* Model */,
 				2D2998EA2BDA922B00ADAB73 /* Repository */,
 			);
 			path = Data;
@@ -167,6 +166,7 @@
 		2D2998DE2BDA8F8500ADAB73 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				2D2998E12BDA8FA600ADAB73 /* Model */,
 				2D2999042BDBEB5100ADAB73 /* View */,
 				2D2998FD2BDAAFA400ADAB73 /* ViewModel */,
 			);
