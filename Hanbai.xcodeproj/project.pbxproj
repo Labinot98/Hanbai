@@ -167,8 +167,7 @@
 		2D2998DE2BDA8F8500ADAB73 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				2D2998DC2BDA8F6300ADAB73 /* ComicsView.swift */,
-				2D2998FB2BDAA8B400ADAB73 /* ComicDetailView.swift */,
+				2D2999042BDBEB5100ADAB73 /* View */,
 				2D2998FD2BDAAFA400ADAB73 /* ViewModel */,
 			);
 			path = Home;
@@ -237,6 +236,15 @@
 				2D2998DF2BDA8F9500ADAB73 /* ComicsViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2D2999042BDBEB5100ADAB73 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2D2998DC2BDA8F6300ADAB73 /* ComicsView.swift */,
+				2D2998FB2BDAA8B400ADAB73 /* ComicDetailView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
