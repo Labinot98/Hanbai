@@ -16,8 +16,16 @@ struct ComicsView: View {
                 if viewModel.isLoading {
                     ProgressView("Loading...")
                 } else {
-                    List(viewModel.comics, id: \.id) { comic in
-                        Text(comic.title)
+                    List {
+                        ForEach(viewModel.sortedGroupedComics, id: \.0) { creator, comics in
+                            Section(header: Text(creator)) {
+                                ForEach(comics, id: \.id) { comic in
+                                    NavigationLink(destination: ComicDetailView(comic: comic)) {
+                                        Text(comic.title)
+                                    }
+                                }
+                            }
+                        }
                     }
                     .padding()
                 }

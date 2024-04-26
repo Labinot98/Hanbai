@@ -14,7 +14,5 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         statusBarController = StatusBarController()
     }
     
-    func applicationWillTerminate(_ notification: Notification) {
-        // Handle application termination
-    }
+    func applicationWillTerminate(_ notification: Notification) { }
 }

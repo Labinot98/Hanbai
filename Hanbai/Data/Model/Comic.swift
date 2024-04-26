@@ -7,11 +7,10 @@
 
 import Foundation
 
-struct Comic: Codable, Identifiable {
+struct Comic: Codable {
     let id: Int
     let title: String
-    let description: String?
-    let thumbnail: Thumbnail?
+    let creators: ComicCreators
 }
 
 struct Response: Codable {
@@ -20,4 +19,13 @@ struct Response: Codable {
 
 struct ComicData: Codable {
     let results: [Comic]
+}
+
+struct ComicCreators: Codable {
+    let items: [Creator]
+}
+
+struct Creator: Codable {
+    let name: String
+    let role: String
 }

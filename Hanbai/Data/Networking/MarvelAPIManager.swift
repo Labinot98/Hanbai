@@ -13,8 +13,8 @@ enum AppError: Error {
 }
 
 
-
 struct MarvelAPIManager {
+    
     static let publicKey = "549327aceb8702908ecd42306da09274"
     static let privateKey = "19300152f5f9afe5785f9795d7baf9de57ea8dff"
     static let baseURL = "https://gateway.marvel.com/v1/public/comics"
